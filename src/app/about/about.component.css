@@ -1,0 +1,22 @@
+.section-container{
+    background-color: #1abc9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 78vh;
+}
+.section-title h2{
+    color: #fff;
+}
+.icon {
+    color: #fff;
+}
+
+.about-desc{
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: start;
+}
+
+
+

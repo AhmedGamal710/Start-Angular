@@ -1,0 +1,27 @@
+<div class="section-container">
+
+    <div class="section-title text-center">
+        <h2>portfolio</h2>
+        <div class="icon">
+            <i class="fas fa-star"></i>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let portfolioImage of portfolioImages , let i= index"
+                class="image-container col-lg-4 col-md-6 my-4">
+                <img class="w-100 rounded" [src]="portfolioImage" [alt]="i">
+                <div class="image-overlay rounded">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    
+</div>
+
+
+

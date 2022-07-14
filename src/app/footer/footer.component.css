@@ -1,0 +1,13 @@
+.container-fluid{
+    position: relative;
+    bottom: 0;
+}
+.footer-bg{
+    background-color: #1a252f;
+}
+
+.copyright{
+    font-size: 0.8rem;
+    color: #fff;
+    margin-bottom: 0 !important;
+}
